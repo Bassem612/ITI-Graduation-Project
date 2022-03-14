@@ -1,0 +1,164 @@
+/*Global styles */
+h2{
+  font-size: 40px !important;
+}
+/*Global styles */
+
+/* Start Nav Component */
+nav {
+  background: #2ecc71;
+}
+
+.navbar-brand{
+  font-size: 30px !important ;
+  margin-right: 60px !important;
+}
+
+.nav-item{
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff !important;
+}
+/* End Nav Component */
+
+/* Start Slider Component */
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0, .6);
+    z-index: 1;
+}
+.carousel-item1 {
+  background: url("./images/slide1.jpg") center center;
+}
+.carousel-item2 {
+  background: url("./images/slide2.jpg") center center;
+}
+.carousel-item3 {
+  background: url("./images/slide3.jpg") center center;
+}
+
+.carousel-item {
+  background-size: cover;
+  height: 600px;
+  z-index: 0;
+}
+
+.carousel-indicators button{
+    background-color: #2ecc71 !important;
+}
+/* End Slider Component */
+
+/* Start WhatWeDo Component */
+.whatweDoSection{
+    background: #44425A;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.whatweDoSection-info h2{
+   color: #2ecc71;
+}
+
+.whatweDoSection-info p{
+    font-size: 20px;
+}
+
+.meal img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.meal h4{
+    margin-top: 10px;
+    color: #2ecc71;
+}
+/* End WhatWeDo Component */
+
+/* Start Subscribe Section */
+.subscribe-section{
+  background-color: #27ae60;
+  padding: 80px 0;
+}
+
+.subscribe-section input{
+  width: 50%;
+  margin: 0 auto;
+}
+/* End Subscribe Section */
+
+/* Start Testimonials Section */
+.carousal-testimonials{
+  background-image: url('./images/lunch.jpg');
+  background-size: cover;
+}
+
+.testimonials{
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.testimonials-card{
+  background: #16a085;
+  opacity: .9;
+}
+
+.quotaion{
+  font-size: 40px;
+}
+
+.testimonials img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 6% !important;
+}
+/* End Testimonials Section */
+
+/* Start Footer Section */
+.footer{
+  background: #2f3640;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .social-icons i{
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #2ecc71;
+}
+/* End Footer Section */
+
+
+/* Start Scroll To Top */
+.to-top-button{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+  background: #27ae60;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.to-top-button:hover{
+  background: #2ecc71;
+}
+/* End Scroll To Top */
+
