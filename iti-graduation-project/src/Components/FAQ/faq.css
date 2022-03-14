@@ -1,0 +1,20 @@
+
+.bg {
+  background-image: url("./img/slider-1.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.breadcrumbs {
+  background-color: #b8b4c5;
+}
+
+.row {
+  align-items: center !important;
+}
+
+.Qspan {
+  font-size: 2rem;
+  margin-right: 0.2em;
+  line-height: 38px;
+  font-weight: 500;
+}
