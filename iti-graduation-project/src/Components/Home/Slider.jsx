@@ -1,7 +1,5 @@
-import slide1 from '../Images/slide1.jpg'
-import slide2 from '../Images/slide2.jpg'
-import slide3 from '../Images/slide3.jpg'
-import slide4 from '../Images/slide4.jpg'
+import "./Home.css";
+
 
 const Slider = () => {
   return (
@@ -10,6 +8,9 @@ const Slider = () => {
       className="carousel slide"
       data-bs-ride="carousel"
     >
+
+<div className="overlay"> </div>
+
       <div className="carousel-indicators">
         <button
           type="button"
@@ -33,16 +34,18 @@ const Slider = () => {
         ></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={slide1} className=" slide-img d-block w-100" alt="Healty Food" />
-        </div>
-        <div className="carousel-item">
-          <img src={slide2} className=" slide-img d-block w-100" alt="Healty Food" />
-        </div>
-        <div className="carousel-item">
-          <img src={slide3} className=" slide-img d-block w-100" alt="Healty Food" />
-        </div>
+
+          <div className="carousel-item carousel-item1  active">
+            {/* <img src={slide1} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+          </div>
+          <div className="carousel-item carousel-item2">
+            {/* <img src={slide002} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+          </div>
+          <div className="carousel-item carousel-item3">
+            {/* <img src={slide3} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+          </div>
       </div>
+
       <button
         className="carousel-control-prev"
         type="button"
