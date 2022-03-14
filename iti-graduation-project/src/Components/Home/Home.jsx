@@ -5,7 +5,7 @@ import WhatWeDo from './WhatWeDo';
 import Subscribe from './Subscribe';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
-import ScrollToTop from "../ScrollToTop";
+import ScrollToTop from "./ScrollToTop";
 
 
 const Home = () => {
