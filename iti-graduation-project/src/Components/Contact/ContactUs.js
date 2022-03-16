@@ -17,7 +17,6 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-      <br />
       <div className="container xx">
         <h3 className="my-4  text-center "> Contact Information</h3>
         <div className="row">
@@ -52,7 +51,7 @@ export default function ContactUs() {
 
         <div className="row">
           <div className="col-12 text-center">
-            <button className="btn-submit " type="submit">
+            <button className="btn-submit mb-3 " type="submit">
             
               Submit
             </button>

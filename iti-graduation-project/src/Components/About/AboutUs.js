@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 export default function AboutUs() {
   return (
     <>
-      <div className="container-fluid bg-img">
+      <div className="container-fluid bg-img mb-4">
         <div className="row justify-content-center align-items-center fw-bold text-center ">
           <div className="col-sm-12 col-md-6 mt-5 m-0 p-0">
             <h1 className="text-light about-H  ">ABOUT US</h1>
@@ -42,73 +42,73 @@ export default function AboutUs() {
           </div>
 
           <div className="col-sm-12 col-md-6 p-0 m-0">
-            <div class="row mx-auto my-auto justify-content-center">
+            <div className="row mx-auto my-auto justify-content-center">
               <div
                 id="recipeCarousel"
-                class="carousel slide"
+                className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <div class="card-img">
+                <div className="carousel-inner" role="listbox">
+                  <div className="carousel-item active">
+                    <div className="col-sm-3   col-md-3">
+                      <div className="card">
+                        <div className="card-img">
                           <img src={require("./imgs/estmar.jpg")} />
                         </div>
-                        <div class="card-img-overlay">Slide 1</div>
+                        <div className="card-img-overlay">Slide 1</div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <div class="card-img">
+                  <div className="carousel-item">
+                    <div className="col-md-3">
+                      <div className="card">
+                        <div className="card-img">
                           <img src={require("./imgs/gang.jpg")} />
                         </div>
-                        <div class="card-img-overlay">Slide 2</div>
+                        <div className="card-img-overlay">Slide 2</div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <div class="card-img">
+                  <div className="carousel-item">
+                    <div className="col-sm-3   col-md-3">
+                      <div className="card">
+                        <div className="card-img">
                           <img src={require("./imgs/muftah.jpg")} />
                         </div>
-                        <div class="card-img-overlay">Slide 3</div>
+                        <div className="card-img-overlay">Slide 3</div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <div class="card-img">
+                  <div className="carousel-item">
+                    <div className=" col-sm-3  col-md-3">
+                      <div className="card">
+                        <div className="card-img">
                           <img src={require("./imgs/sultan etwaghawsh.jpg")} />
                         </div>
-                        <div class="card-img-overlay">Slide 4</div>
+                        <div className="card-img-overlay">Slide 4</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <a
-                  class="carousel-control-prev bg-transparent w-aut"
+                  className="carousel-control-prev bg-transparent w-aut"
                   href="#recipeCarousel"
                   role="button"
                   data-bs-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
                 </a>
                 <a
-                  class="carousel-control-next bg-transparent w-aut"
+                  className="carousel-control-next bg-transparent w-aut"
                   href="#recipeCarousel"
                   role="button"
                   data-bs-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
                 </a>
@@ -124,49 +124,44 @@ export default function AboutUs() {
             <h2 className="p-4 m-3"> OUR HISTORY </h2>
           </div>
 
-    <div className="row justify-content-center align-items-center mt-4">
-      
-    <div className="col-sm-12 col-md-3">
-            <Card className="card-style" style={{ width: "18rem" }}>
-              <Card.Body>
-                <Card.Title>Establishment</Card.Title>
-
-                <Card.Text>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae; Proin facilisis, velit non
-                  fringilla pharetra, elit odio
-                </Card.Text>
-              </Card.Body>
-            </Card>
+          <div className="d-flex flex-wrap gap-4 justify-content-center align-items-center ">
+            <div className="col ">
+              <div className="card card-style">
+                <div className="card-body">
+                  <h5 className="card-title">Establishment</h5>
+                  <p className="card-text">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Proin facilisis, velit non
+                    fringilla pharetra, elit odio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card card-style">
+                <div className="card-body">
+                  <h5 className="card-title">First Success</h5>
+                  <p className="card-text">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Proin facilisis, velit non
+                    fringilla pharetra, elit odio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card  card-style">
+                <div className="card-body">
+                  <h5 className="card-title">New Technologies</h5>
+                  <p className="card-text">
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Proin facilisis, velit non
+                    fringilla pharetra, elit odio
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="col-sm-12 col-md-3">
-            <Card className="card-style" style={{ width: "18rem" }}>
-              <Card.Body>
-                <Card.Title>First Success</Card.Title>
-
-                <Card.Text>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae; Proin facilisis, velit non
-                  fringilla pharetra, elit odio
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-sm-12 col-md-3">
-            <Card className="card-style" style={{ width: "18rem" }}>
-              <Card.Body>
-                <Card.Title>New Technologies</Card.Title>
-
-                <Card.Text>
-                  Vestibulum ante ipsum primis in faucibus orci luctus et
-                  ultrices posuere cubilia Curae; Proin facilisis, velit non
-                  fringilla pharetra, elit odio
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </div>
-       </div>
-
         </div>
       </div>
     </>

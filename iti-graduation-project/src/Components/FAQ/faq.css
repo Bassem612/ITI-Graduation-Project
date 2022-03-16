@@ -1,15 +1,18 @@
-
-.bg {
-  background-image: url("./img/slider-1.jpg");
+.frst-bg {
+  background-image: url("./img/slider-2.jpg");
+  height: 55vh;
+  background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
-}
-.breadcrumbs {
-  background-color: #b8b4c5;
-}
+  /* padding: 2rem !important; */
 
-.row {
-  align-items: center !important;
+}
+.about-H {
+  color: black !important;
+  font-family: "Poppins", Sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 6px 5px 10px rgb(0 0 0 / 30%) !important;
 }
 
 .Qspan {

@@ -30,6 +30,7 @@
 }
 
 .frst-ul {
+  
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -49,31 +50,35 @@
   border-bottom-color: #d7211e;
 }
 .card-img img {
-  max-height: 44rem;
-  max-width: 55rem;
+  max-height: 44rem !important;
+  max-width: 55rem !important;
   object-fit: contain;
   border: 2px solid red;
 }
 
 .marg {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+
+  height: 50% !important;
+  /* margin-top: 5rem; */
+  /* margin-bottom: 5rem; */
 }
 
 .bg-img2 {
   background-image: url("./imgs/bg-gallery.jpg");
-  height: 100vh !important;
+  height: auto !important;
+  padding: 2rem !important;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .card-style {
-  margin: 0px 10px 0px 10px;
-  padding: 30px 20px 30px 20px;
+ min-width: 300px !important;
+
+  /* max-width: fit-content !important; */
+  height: auto !important;
+  margin: 0px 10px;
+  padding: 30px 20px;
   background-color: transparent !important;
-
-
-
   background-image: linear-gradient(
     180deg,
     #ffffff 14%,
