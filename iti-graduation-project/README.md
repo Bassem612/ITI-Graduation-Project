@@ -15,6 +15,7 @@
 ### => git pull
 ### => done
 ### => retutn to my branch git checkout mahmod
+### https://www.youtube.com/watch?v=xNVM5UxlFSA video How to resolve merge conflicts in Git
 
 -------------------------------
 
