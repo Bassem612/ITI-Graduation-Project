@@ -1,22 +1,22 @@
 # mahmod
-on my branch mahmod
-git pull origin mahmod
-CONFLICT (content): Merge conflict
-solve conflicts
-Documents/iti/graduation project/ITI-Graduation-Project/iti-graduation-project (mahmod|MERGING)
-git status
-On branch mahmod (fix conflicts and run "git commit") You have unmerged paths. (use "git merge --abort" to abort the merge)
-=> git add .
-=> git commit -m "mahmod merged his branch"  
-=> git push origin mahmod
-=> git checkout main
-=> Switched to branch 'main'Your branch is behind 'origin/main' by 6 commits, and can be fast-forwarded.
-=> (use "git pull" to update your local branch)
-=> git pull
-=> done
-=> retutn to my branch git checkout mahmod
+### on my branch mahmod
+### git pull origin mahmod
+### CONFLICT (content): Merge conflict
+### solve conflicts
+### Documents/iti/graduation project/ITI-Graduation-Project/iti-graduation-project (mahmod|MERGING)
+### git status
+### On branch mahmod (fix conflicts and run "git commit") You have unmerged paths. (use "git merge --abort" to abort the merge)
+### => git add .
+### => git commit -m "mahmod merged his branch"  
+### => git push origin mahmod
+### => git checkout main
+### => Switched to branch 'main'Your branch is behind 'origin/main' by 6 commits, and can be fast-forwarded.
+### => (use "git pull" to update your local branch)
+### => git pull
+### => done
+### => retutn to my branch git checkout mahmod
 
----
+-------------------------------
 
 # Getting Started with Create React App
 
