@@ -3,9 +3,9 @@ import "./contact-us.css";
 import Inputemail from "./InputEmail";
 export default function ContactUs() {
   return (
-    <>
+    <div className="contact-us-section">
       <div className="container-fluid p-0">
-        <div className=" section ">
+        <div className="contact-us section ">
           <div>
             <h2>CONTACT US</h2>
           </div>
@@ -58,6 +58,6 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import "./about.css";
 import { Card } from "react-bootstrap";
 export default function AboutUs() {
   return (
-    <>
+    <div className="About-us-section">
       <div className="container-fluid bg-img mb-4">
         <div className="row justify-content-center align-items-center fw-bold text-center ">
           <div className="col-sm-12 col-md-6 mt-5 m-0 p-0">
@@ -164,6 +164,6 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

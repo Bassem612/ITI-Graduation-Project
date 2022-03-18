@@ -1,11 +1,11 @@
-.bg-img {
+.About-us-section .bg-img {
   background-image: url("./imgs/bg-gallery.jpg");
   height: 55vh;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.about-H {
+.About-us-section .about-H {
   color: #ffffff;
   font-family: "Poppins", Sans-serif;
   font-size: 55px;
@@ -13,13 +13,13 @@
   text-transform: uppercase;
   text-shadow: 6px 5px 10px rgb(0 0 0 / 30%);
 }
-.quot {
+.About-us-section .quot {
   color: #d7211e;
   font-size: 27px;
   font-weight: 900;
 }
 
-.secnd-H {
+.About-us-section .secnd-H {
   text-align: center;
   line-height: 2;
   color: #151515;
@@ -29,8 +29,7 @@
   letter-spacing: 2.6px;
 }
 
-.frst-ul {
-  
+.About-us-section .frst-ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -41,29 +40,29 @@
   border-bottom: 3px solid;
 }
 
-.frst-ul li {
+.About-us-section .frst-ul li {
   cursor: pointer;
   outline: none;
 }
-.frst-ul li:hover {
+.About-us-section .frst-ul li:hover {
   color: #d7211e;
   border-bottom-color: #d7211e;
 }
-.card-img img {
+.About-us-section .card-img img {
   max-height: 44rem !important;
   max-width: 55rem !important;
   object-fit: contain;
   border: 2px solid red;
 }
 
-.marg {
+.About-us-section .marg {
 
   height: 50% !important;
   /* margin-top: 5rem; */
   /* margin-bottom: 5rem; */
 }
 
-.bg-img2 {
+.About-us-section .bg-img2 {
   background-image: url("./imgs/bg-gallery.jpg");
   height: auto !important;
   padding: 2rem !important;
@@ -71,7 +70,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.card-style {
+.About-us-section .card-style {
  min-width: 300px !important;
 
   /* max-width: fit-content !important; */

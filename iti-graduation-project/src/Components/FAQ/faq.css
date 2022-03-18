@@ -1,4 +1,4 @@
-.frst-bg {
+.faq-section .frst-bg {
   background-image: url("./img/slider-2.jpg");
   height: 55vh;
   background-size: cover;
@@ -6,7 +6,7 @@
   /* padding: 2rem !important; */
 
 }
-.about-H {
+.faq-section .about-H {
   color: black !important;
   font-family: "Poppins", Sans-serif;
   font-size: 55px;
@@ -15,7 +15,7 @@
   text-shadow: 6px 5px 10px rgb(0 0 0 / 30%) !important;
 }
 
-.Qspan {
+.faq-section .Qspan {
   font-size: 2rem;
   margin-right: 0.2em;
   line-height: 38px;

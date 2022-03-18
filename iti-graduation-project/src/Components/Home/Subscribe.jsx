@@ -1,3 +1,5 @@
+import "./Home.css";
+
 const Subscribe = () => {
     return ( 
         <div className="subscribe-section text-center">

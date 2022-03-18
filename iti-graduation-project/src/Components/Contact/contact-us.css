@@ -1,4 +1,4 @@
-.section {
+.contact-us-section .section {
   height: 55vh;
   text-align: center;
   padding: 2rem;
@@ -11,12 +11,12 @@
   color: white;
 }
 
-input,
-textarea {
+.contact-us-section input,
+.contact-us-section textarea {
   margin-bottom: 20px !important;
 }
 
-input {
+.contact-us-section input {
   border: 1px solid #e5e5e5 !important;
   border-radius: 5px !important;
   height: 50px !important;
@@ -28,7 +28,7 @@ input {
   font-weight: normal !important;
   margin-bottom: 20px !important;
 }
-textarea {
+.contact-us-section textarea {
   width: 100%;
   padding: 20px;
   border: 1px solid #e5e5e5 !important;
@@ -36,15 +36,15 @@ textarea {
 
 }
 
-input:focus {
+.contact-us-section input:focus {
   border-color: #85c441 !important;
   outline: none !important;
 }
-textarea:focus {
+.contact-us-section textarea:focus {
     border-color: #85c441 !important;
     outline: none !important;
-  }
-.btn-submit {
+  } 
+.contact-us-section .btn-submit {
   height: 50px;
   line-height: 50px;
   border: none;
@@ -57,7 +57,7 @@ textarea:focus {
   padding: 0 30px;
 }
 
-.btn-submit:hover {
+.contact-us-section .btn-submit:hover {
   background: #85c441;
   color: #ffffff;
 }
