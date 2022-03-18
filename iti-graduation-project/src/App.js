@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
 import ContactUs from "./Components/Contact/ContactUs";
 import Faq from "./Components/FAQ/Faq";
-import AboutUs from "./Components/about/AboutUs";
+import AboutUs from "./Components/About/AboutUs";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 
