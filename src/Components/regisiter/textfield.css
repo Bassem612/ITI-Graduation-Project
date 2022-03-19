@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+ .Loginpage {
+  text-align: center;
+} 
+ 
+   .Loginpage label {
+   font-size: 1rem;
+ }
+ 
+ .Loginpage input.form-control, input.form-control:focus {
+   background: #F0F0FF;
+ }
+ 
+ .Loginpage .error {
+   position: absolute;
+   color: blue;
+   font-size: 1rem;
+ } 
+ 
+.Loginpage .errorme {
+    color: blue;
+}
+
+
