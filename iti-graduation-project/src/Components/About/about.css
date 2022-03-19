@@ -30,38 +30,41 @@
 }
 
 .About-us-section .frst-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
+  /* list-style: none; */
+  /* display: flex; */
+  /* justify-content: space-between; */
   font-family: "Poppins", Sans-serif;
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  border-bottom: 3px solid;
+  width: fit-content;
+  border-bottom: solid;
 }
 
 .About-us-section .frst-ul li {
-  cursor: pointer;
-  outline: none;
+  /* cursor: pointer; */
+  /* outline: none; */
 }
-.About-us-section .frst-ul li:hover {
+/* .About-us-section .frst-ul li:hover {
   color: #d7211e;
   border-bottom-color: #d7211e;
-}
+} */
 .About-us-section .card-img img {
-  max-height: 44rem !important;
-  max-width: 55rem !important;
+  height: 30rem !important;
+  width: auto !important;
+  padding: 3rem;
   object-fit: contain;
-  border: 2px solid red;
 }
 
 .About-us-section .marg {
-
-  height: 50% !important;
+  /* height: 32rem !important; */
+  height: auto !important;
   /* margin-top: 5rem; */
   /* margin-bottom: 5rem; */
 }
-
+.carousel-item{
+  height: 515px !important;
+}
 .About-us-section .bg-img2 {
   background-image: url("./imgs/bg-gallery.jpg");
   height: auto !important;
@@ -71,7 +74,7 @@
   background-repeat: no-repeat;
 }
 .About-us-section .card-style {
- min-width: 300px !important;
+  min-width: 300px !important;
 
   /* max-width: fit-content !important; */
   height: auto !important;

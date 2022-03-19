@@ -26,11 +26,12 @@ export default function AboutUs() {
 
             <div className="col-sm-12 col-md-6">
               <div className="row">
-                <ul className="frst-ul ">
-                  <li> About</li>
-                  <li> OUR MISSION</li>
-                  <li> OUR VISION</li>
-                </ul>
+                <h5 className="frst-ul ">
+                        OUR VISION
+                  {/* <li> About</li>
+                  <li> OUR MISSION</li> */}
+                  {/* <li> OUR VISION</li> */}
+                </h5>
               </div>
 
               <p>
@@ -53,7 +54,7 @@ export default function AboutUs() {
                     <div className="col-sm-3   col-md-3">
                       <div className="card">
                         <div className="card-img">
-                          <img src={require("./imgs/estmar.jpg")} />
+                          <img src={require("./imgs/our-farm-1.jpg")} />
                         </div>
                         <div className="card-img-overlay">Slide 1</div>
                       </div>
@@ -63,7 +64,7 @@ export default function AboutUs() {
                     <div className="col-md-3">
                       <div className="card">
                         <div className="card-img">
-                          <img src={require("./imgs/gang.jpg")} />
+                          <img src={require("./imgs/our-farm-2.jpg")} />
                         </div>
                         <div className="card-img-overlay">Slide 2</div>
                       </div>
@@ -73,7 +74,7 @@ export default function AboutUs() {
                     <div className="col-sm-3   col-md-3">
                       <div className="card">
                         <div className="card-img">
-                          <img src={require("./imgs/muftah.jpg")} />
+                          <img src={require("./imgs/our-farm-3.jpg")} />
                         </div>
                         <div className="card-img-overlay">Slide 3</div>
                       </div>
@@ -83,7 +84,7 @@ export default function AboutUs() {
                     <div className=" col-sm-3  col-md-3">
                       <div className="card">
                         <div className="card-img">
-                          <img src={require("./imgs/sultan etwaghawsh.jpg")} />
+                          <img src={require("./imgs/our-farm-4.jpg")} />
                         </div>
                         <div className="card-img-overlay">Slide 4</div>
                       </div>
