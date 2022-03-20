@@ -5,6 +5,7 @@ import pic from "./img/chicken soup_748886560.jpg";
 export default function Faq() {
   return (
     <div className="faq-section">
+      test
       <div className="container-fluid frst-bg mb-4  ">
         <div className="row mx-0 py-0 justify-content-center align-items-center fw-bold text-center ">
           <div className="col-sm-12 col-md-6 mt-5 m-0 p-0">
