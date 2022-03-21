@@ -34,15 +34,20 @@ const Slider = () => {
         ></button>
       </div>
       <div className="carousel-inner">
-
           <div className="carousel-item carousel-item1  active">
-            {/* <img src={slide1} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+              <div className="content">
+                <h1>Finally, The dish you're waiting for on your table </h1>
+              </div>
           </div>
           <div className="carousel-item carousel-item2">
-            {/* <img src={slide002} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+          <div className="content">
+                <h1>Healty food to live a healthier life in the future </h1>
+              </div>
           </div>
           <div className="carousel-item carousel-item3">
-            {/* <img src={slide3} className=" slide-img d-block w-100" alt="Healty Food" /> */}
+          <div className="content">
+                <h1> We ready to supply vegan food for you anytime </h1>
+              </div>
           </div>
       </div>
 

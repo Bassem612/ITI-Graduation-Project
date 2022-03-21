@@ -6,7 +6,7 @@ h2{
 
 /* Start Nav Component */
 nav {
-  background: #2ecc71;
+  background: #45A747;
 }
 
 .navbar-brand{
@@ -32,7 +32,7 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(0,0,0, .6);
+    background: rgba(0,0,0, .2);
     z-index: 1;
 }
 .carousel-item1 {
@@ -52,23 +52,37 @@ nav {
 }
 
 .carousel-indicators button{
-    background-color: #2ecc71 !important;
+    background-color: #45A747 !important;
+}
+
+.carousel-item .content{
+  color: #fff;
+    background: rgba(0,0,0, .2);
+    width: auto;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+}
+.carousel-item .content h1{
+  font-size: 60px;
 }
 /* End Slider Component */
 
 /* Start WhatWeDo Component */
 .whatweDoSection{
-    background: #44425A;
+    background: #fff;
     color: #fff;
     padding: 80px 0;
 }
 
 .whatweDoSection-info h2{
-   color: #2ecc71;
+   color: #45A747;
 }
 
 .whatweDoSection-info p{
     font-size: 20px;
+    color: #333;
 }
 
 .meal img{
@@ -79,13 +93,13 @@ nav {
 
 .meal h4{
     margin-top: 10px;
-    color: #2ecc71;
+    color: #45A747;
 }
 /* End WhatWeDo Component */
 
 /* Start Subscribe Section */
 .subscribe-section{
-  background-color: #27ae60;
+  background-color: #45A747;
   padding: 80px 0;
 }
 
@@ -108,8 +122,9 @@ nav {
 }
 
 .testimonials-card{
-  background: #16a085;
+  background: #45A747;
   opacity: .9;
+  height: 400px;
 }
 
 .quotaion{
@@ -122,6 +137,15 @@ nav {
   border-radius: 50%;
 }
 
+.testimonials p{
+  font-size: 25px;
+}
+
+.testimonials span:last-of-type{
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 .carousel-control-next, .carousel-control-prev{
   width: 6% !important;
 }
@@ -129,16 +153,35 @@ nav {
 
 /* Start Footer Section */
 .footer{
-  background: #2f3640;
+  background: #45A747;
   padding: 20px;
-  text-align: center;
+  color: #fff;
+}
+
+.footer ul li {
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #eee;
+}
+
+.footer ul li:hover{
+  color: #fff;
 }
 
 .footer .social-icons i{
   padding: 0 10px;
   cursor: pointer;
   font-size: 30px;
-  color: #2ecc71;
+  color: #eee;
+}
+
+.footer .social-icons i:hover{
+  color: #fff;
+}
+
+.copyRight{
+  font-weight: bold;
 }
 /* End Footer Section */
 
@@ -149,7 +192,7 @@ nav {
   right: 20px;
   bottom: 20px;
   z-index: 99;
-  background: #27ae60;
+  background: #45A747;
   border: none;
   width: 50px;
   height: 50px;
@@ -158,7 +201,7 @@ nav {
 }
 
 .to-top-button:hover{
-  background: #2ecc71;
+  background: #45A747;
 }
 /* End Scroll To Top */
 

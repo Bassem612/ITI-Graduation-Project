@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Logo
+          Healthy
         </a>
         <button
           className="navbar-toggler"
@@ -20,9 +19,9 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to={'/'} >
+              <a className="nav-link active" aria-current="page" href="#" >
                 Home
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item dropdown">
@@ -63,25 +62,32 @@ const Nav = () => {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to={'about'} >
-                About Us
-              </Link>
+            <a className="nav-link" href="#">
+                About
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to={'contact'} >
-                Contact Us
-              </Link>
+            <a className="nav-link" href="#">
+                Contatc
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="faq">
+            <a className="nav-link" href="#">
                 FAQ
-              </Link>
+              </a>
             </li>
           </ul>
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li className="nav-item">
+              <a className="nav-link" href="#">
+                 <i class="fa-solid fa-cart-plus"></i>
+              </a>
+            </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#">
                 Login

@@ -11,7 +11,6 @@ const Home = () => {
         <Fragment>
             <Slider/>
             <WhatWeDo/>
-            <Subscribe/>
             <Testimonials/>
             <ScrollToTop/>
         </Fragment>

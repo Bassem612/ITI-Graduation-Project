@@ -2,7 +2,7 @@ import "./Home.css";
 
 const Subscribe = () => {
     return ( 
-        <div className="subscribe-section text-center">
+        <div  className="subscribe-section text-center">
             <h2 className="text-white mb-4">Subscribe with us for more healthy tips!</h2>
             <form>
                 <input className="form-control" placeholder="Please enter your email" type='email'/>

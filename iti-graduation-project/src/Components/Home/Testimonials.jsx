@@ -1,5 +1,11 @@
 import './Home.css'
 import avatar from './images/avatar.png'
+import people1 from './images/people1.jpg'
+import people2 from './images/people2.jpg'
+import people3 from './images/people3.jpg'
+import people4 from './images/people4.jpg'
+import people5 from './images/people5.png'
+import people6 from './images/people6.jpg'
 
 const Testimonials = () => {
   return (
@@ -17,23 +23,23 @@ const Testimonials = () => {
                 <div className="row ">
                     <div className="testimonials-card col mx-2 pb-4">
                         <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'> Best website for serving healthy food ever! </p>
+                        <img src={people1} alt="" />
+                        <span className="d-block"> Patrick </span>
                     </div>
 
                     <div className="testimonials-card col mx-2 pb-4">
                     <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'> Yummy as always, Thank you so much. </p>
+                        <img src={people5} alt="" />
+                        <span className="d-block"> Sarah </span>
                     </div>
 
                     <div className="testimonials-card col mx-2 pb-4">
                     <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'> Amazing, Those guys know exactly what they cock!!! </p>
+                        <img src={people3} alt="" />
+                        <span className="d-block"> John </span>
                     </div>
                 </div>
             </div>                
@@ -44,50 +50,23 @@ const Testimonials = () => {
                 <div className="row ">
                     <div className="testimonials-card col mx-2 pb-4">
                         <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'> Great experience, Their meals are really good and delicious.</p>
+                        <img src={people4} alt="" />
+                        <span className="d-block"> Isabella </span>
                     </div>
 
                     <div className="testimonials-card col mx-2 pb-4">
                     <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'>Fastest delivery ever!, And thanks for the delcious meal</p>
+                        <img src={people2} alt="" />
+                        <span className="d-block"> David </span>
                     </div>
 
                     <div className="testimonials-card col mx-2 pb-4">
                     <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
-                    </div>
-                </div>
-            </div>                
-        </div>
-
-        <div className="carousel-item ">
-            <div className="container testimonials">
-                <div className="row ">
-                    <div className="testimonials-card col mx-2 pb-4">
-                        <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
-                    </div>
-
-                    <div className="testimonials-card col mx-2 pb-4">
-                    <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
-                    </div>
-
-                    <div className="testimonials-card col mx-2 pb-4">
-                    <span className='quotaion'> <i class="fa-solid fa-quote-right"></i> </span>
-                        <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia facere, dolor placeat nihil reiciendis facilis eos earum cum sed quisquam molestias nulla iure debitis est deleniti voluptate, esse nesciunt.</p>
-                        <img src={avatar} alt="" />
-                        <span className="d-block"> Fullname </span>
+                        <p className='mb-5'> I highly recommmend them for their healthy food.</p>
+                        <img src={people6} alt="" />
+                        <span className="d-block"> Emma </span>
                     </div>
                 </div>
             </div>                
